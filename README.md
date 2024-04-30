@@ -1,3 +1,20 @@
+# Letterbox Viewer
+## Goals
+- Primary: Display key film information in a visually pleasing way (Title, photo, star rating, for starters) by calling the Letterboxd API
+- Secondary: Create a summary of the top X reviews by making an API call to chat GPT
+
+## Steps
+- Host a basic 'hello world' site from my machine
+- Set up locally stored API key to prevent uploading to github
+- Make an API call to Letterboxd to get a basic set of movies (Top 100)
+- Take a basic 1 item sample from the Letterboxd API (Format? Array of dictionaries?) to use as a first step for making a nice display (Leave out thumbnails at first?)
+- Display multiple items in a list format
+- Display items in a grid format
+- Going back to a single movie sample, gather top X reviews to compile and make an API call to ChatGPT for summary
+- Assess speed - would it be reasonable to store the information gathered so that ChatGPT's speed is not getting in the way
+- Fill out website "look": add favicons, sticky menu bar / collapsing side menu, footer, collapsable summary/comments, other experiments
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
